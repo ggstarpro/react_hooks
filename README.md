@@ -1,3 +1,21 @@
+# 概要
+- React Hooks 学習用REP
+- 学習内容は[【完全保存版】React Hooksを完全に理解するHooksマスター講座【React18~19対応】](https://www.udemy.com/course/react-hooks-complete-course/)に準ずる
+- [Github](https://github.com/Shin-sibainu/react-hooks-lessons)
+
+# 環境構築
+`$ git clone https://github.com/Shin-sibainu/react-hooks-lessons.git`
+`$ npm install`
+`$ npm run dev`
+
+
+# 学習内容
+* [Lesson1_1]
+`useState`
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
