@@ -15,6 +15,8 @@
 
 
 
+npm i -D vitest happy-dom @vitest/coverage-v8 @testing-library/react @testing-library/user-event @testing-library/jest-dom
+
 
 # React + TypeScript + Vite
 

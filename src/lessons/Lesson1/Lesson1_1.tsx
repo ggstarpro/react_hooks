@@ -74,7 +74,7 @@ const Lesson1_1 = () => {
       >
         Add Age NG
       </button>
-      <p>You arr {ngAge}</p>
+      <p>You arr ng {ngAge}</p>
       {/* OK */}
       <button
         // 下記書き方の違い(どちらでも良い基本的にはこっち)
@@ -87,9 +87,9 @@ const Lesson1_1 = () => {
 
         className="border p-2 rounded-md bg-red-100"
       >
-        Add Age NG
+        Add Age OK
       </button>
-      <p>You arr {age}</p>
+      <p>You arr ok {age}</p>
     </div>
   );
 };
