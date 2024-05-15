@@ -39,11 +39,18 @@
 ### Lesson3_4
 - 別コンポーネントのDOMノードへアクセス (forwardRef)
 
+## useContext
+### Lesson4_1
+- 認証プロパイダー
+
+## useCallback・useMemo・React.memo
+
 # [SWR](https://swr.vercel.app/ja)
 * `npm i swr`
 
-
-
+# [React Developer Tools](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ja)
+- Profilerでパフォーマンスがわかる
+- Profilerの設定でHighlight updates when components renderにはチェック入れとく
 
 
 
