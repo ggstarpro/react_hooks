@@ -44,6 +44,28 @@
 - 認証プロパイダー
 
 ## useCallback・useMemo・React.memo
+### Lesson5_1
+- React.memo
+### Lesson5_2
+- useCallback
+### Lesson5_3
+- useMemo
+
+## useOptimistic
+### Lesson6_1
+- 楽観的UI更新 (useOptimisticは現在Canaryで別途インストールする必要があるがうまいくいかなかったReact19から使えるようになる想定)
+
+
+
+
+
+
+
+## useTransition
+## useDeferredValue
+## useFormState・useFormStatus
+
+
 
 # [SWR](https://swr.vercel.app/ja)
 * `npm i swr`
@@ -52,7 +74,18 @@
 - Profilerでパフォーマンスがわかる
 - Profilerの設定でHighlight updates when components renderにはチェック入れとく
 
+# [react-canary-install]
+```
+以下をそのままターミナルにコピー＆ペーストしてください。
 
+npm install react@18.3.0-canary-6db7f4209-20231021
+npm install react-dom@18.3.0-canary-6db7f4209-20231021 --legacy-peer-deps
+なお、--legacy-peer-depsは依存関係を解決しないまま半ば強制的にinstallするコマンドです。
+
+本番環境で使用することは避けてください。useOptimisticはReact19のバージョンで安定版になった時に使用するしようにしましょう。
+
+
+```
 
 
 
