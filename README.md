@@ -59,11 +59,16 @@
 ### Lesson7_1
 - UIノンブロッキングについて
 ### Lesson7_2
-- useTransitionの追加いどころ
+- useTransitionの使い方
 ### Lesson7_3
 - Suspense
 
 ## useDeferredValue
+### Lesson8_1
+- 値を遅延
+### Lesson8_2
+- パフォーマンスチューニング
+
 ## useFormState・useFormStatus
 
 

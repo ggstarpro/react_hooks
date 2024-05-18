@@ -38,9 +38,9 @@ function App() {
       {/* <Lesson6_1 /> */}
       {/* <Lesson7_1 /> */}
       {/* <Lesson7_2 /> */}
-      <Lesson7_3 />
+      {/* <Lesson7_3 /> */}
       {/* <Lesson8_1 /> */}
-      {/* <Lesson8_2 /> */}
+      <Lesson8_2 />
     </div>
   );
 }
