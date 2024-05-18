@@ -51,7 +51,7 @@
 ### Lesson5_3
 - useMemo
 
-## useOptimistic
+## useOptimistic(React18ではCanary)
 ### Lesson6_1
 - 楽観的UI更新 (useOptimisticは現在Canaryで別途インストールする必要があるがうまいくいかなかったReact19から使えるようになる想定)
 
@@ -69,7 +69,7 @@
 ### Lesson8_2
 - パフォーマンスチューニング
 
-## useFormState・useFormStatus
+## useFormState・useFormStatus(React18ではCanary)
 
 
 
