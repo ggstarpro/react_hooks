@@ -1,0 +1,5 @@
+# RSC(React Server Component)
+Reactでは全てClientComponent(クライアントサイドでレンダリンするコンポーネント)だが、NextJSは部分部分でServerComponent(サーバーの方でプリレンダリングしているコンポーネント)にすることができる。
+すでに構築済みのHTML、CSSだったりを返却するので表示速度が速くすることができる。
+Defaultで全てRSCになっている。
+

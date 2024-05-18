@@ -40,7 +40,7 @@ function App() {
       {/* <Lesson7_2 /> */}
       {/* <Lesson7_3 /> */}
       {/* <Lesson8_1 /> */}
-      <Lesson8_2 />
+      {/* <Lesson8_2 /> */}
     </div>
   );
 }

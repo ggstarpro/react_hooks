@@ -70,7 +70,8 @@
 - パフォーマンスチューニング
 
 ## useFormState・useFormStatus(React18ではCanary)
-
+### Lesson_9
+- プログレッシブエンハンスメント
 
 
 # [SWR](https://swr.vercel.app/ja)
@@ -89,11 +90,18 @@ npm install react-dom@18.3.0-canary-6db7f4209-20231021 --legacy-peer-deps
 なお、--legacy-peer-depsは依存関係を解決しないまま半ば強制的にinstallするコマンドです。
 
 本番環境で使用することは避けてください。useOptimisticはReact19のバージョンで安定版になった時に使用するしようにしましょう。
-
-
 ```
 
-
+# Lesson9 環境構築
+* npx create-next-app@latest
+```
+✔ What is your project named? … nextjs-hooks-tutorial
+✔ Would you like to use TypeScript? … No / Yes
+✔ Would you like to use ESLint? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like to use `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to customize the default import alias (@/*)? … No / Yes
 
 # React + TypeScript + Vite
 
