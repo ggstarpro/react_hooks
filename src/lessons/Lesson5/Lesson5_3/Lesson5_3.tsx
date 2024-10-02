@@ -1,16 +1,23 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
+
+// 値の再計算を防ぐ
+// useMemo()
 
 const Lesson5_3 = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
   const double = (count: number) => {
+    // 重い処理
     let i = 0;
     while (i < 100000000) i++;
+    // 重い処理
+
     return count * 2;
   };
 
-  const doubleCount = double(count2);
+  // const doubleCount = double(count2);
+  const doubleCount = useMemo(() => double(count2), []);
 
   return (
     <div>

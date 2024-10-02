@@ -1,8 +1,15 @@
-import { useState } from "react";
+import { memo, useState } from "react";
 import { useToggle } from "./hooks/useToggle";
+
+// useCallBack
+// 関数の再生成を防ぐ
 
 const Lesson5_2 = () => {
   const [count, setCount] = useState(0);
+  // 子コンポーネントだけレンダリングしたい場合、子で宣言を行えばOK
+  // 子コンポーネントを何個も使用する場合は、子で宣言しない方が良い
+  // 「「一般的には親コンポーネントで宣言して、propsで子に渡すのがベストプラククティス」」
+  // 他のコンポーネントで非常に多く使い回すならuseContextを使用する
   const [on, toggle] = useToggle(false);
 
   console.log("Parent rendered");
@@ -24,7 +31,8 @@ const Lesson5_2 = () => {
 export default Lesson5_2;
 
 // eslint-disable-next-line react-refresh/only-export-components
-const Child = ({ toggle, on }: { toggle: () => void; on: boolean }) => {
+// propsで同じ値でもメモリのアドレスが変わると再レンダリングされる
+const Child = memo(({ toggle, on }: { toggle: () => void; on: boolean }) => {
   console.log("Child rendered");
   let i = 0;
   while (i < 10000000) i++;
@@ -36,4 +44,4 @@ const Child = ({ toggle, on }: { toggle: () => void; on: boolean }) => {
       </button>
     </div>
   );
-};
+});
